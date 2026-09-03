@@ -460,6 +460,15 @@ img {
   color: var(--text-main);
 }
 
+.chip-link {
+  transition: color var(--transition-smooth);
+}
+
+.chip-link:hover {
+  color: var(--orange-primary);
+  text-decoration: underline;
+}
+
 .hero-actions {
   display: flex;
   align-items: center;
